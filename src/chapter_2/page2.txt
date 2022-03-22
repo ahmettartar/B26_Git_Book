@@ -1,0 +1,27 @@
+
+Introduction
+Computer aided detection (CAD) system is an extremely important task for the detection of pulmonary nodules in medical images. To attain a more reliable and accurate diagnosis, CAD systems have been recently developed to assist interpretation of the medical images. The systems that find true positive findings from the medical images are especially important in that they can also help radiologists in the identification of early stage pulmonary nodules. To best interpret the information revealed in the images, experienced physicians are required; however, such experts may reach different diagnosis results for the same set of medical imaging. Thus, CAD system is an intensive tool that can provide radiologists with a second opinion to improve the sensitivity of their diagnosis decision-making process [1]. The aim of a CAD system is to provide diagnosis information to improve clinical decision-making process; therefore, its success is related directly to its disease detection accuracy [2]. Today, CAD systems are frequently utilized to detect and diagnose numerous abnormalities in routine clinical work. CAD systems are usually specialized in anatomical regions such as the thorax, breast, or colon by using certain medical imaging technologies such as radiography, computed tomography (CT), or magnetic resonance imaging (MRI) [3].
+
+Recently, lung cancer is still considered a major cause of deaths from cancer worldwide. In particular, it is one of the main public health issues in the developed industrial countries [4, 5]. This makes the treatment of lung cancer a very important task in the war against cancer. Early detection of potentially cancerous pulmonary nodules is highly important for improving the patient's chance of survival. Multidetector computed tomography system is a very sensitive imaging modality to detect small pulmonary nodules.
+
+In previous studies, classification systems were developed by using the features of nodule candidate patterns with image-processing techniques [6–8], by classifying the shape of pulmonary nodule patterns [9, 10] and by using morphological features [11, 12]. To classify lung nodules, neural network approaches  [13, 14] and Fisher linear discriminant classifier [15, 16] were proposed. In addition, several approaches have been proposed to detect pulmonary nodules in thin-slice helical computed tomography images [17, 18]. Similar techniques are introduced by using genetic algorithm with the random subspace method [19, 20], a single support vector machine [21], and random forest classifiers [22, 23]. Recently, the ensemble learning methods have been applied to classification problems [24, 25]. Especially, the ensemble learning algorithms such as bagging and adaboost are shown to be superior to a single classifier [26, 27].
+
+In this study, a combination of four different methods was proposed for feature extraction from CT images.
+
+Method 1. Two-dimensional principal component analysis (2D-PCA) applied to dataset.
+
+Method 2. Statistical features obtained from 2D-PCA values.
+
+Method 3. Geometric features obtained by using the regional descriptors of the 2D patterns based on the basic morphological shape information.
+
+Method 4. Selecting the best features of the above three methods with mRMR (minimum Redundancy Maximum Relevance) method, hybrid features are obtained by combining the best features.
+
+To perform a rigorous validation with the proposed system, completely independent training and testing datasets are utilized. All nodules in the dataset are first tuned/trained using a dataset provided as a courtesy of the University of Istanbul, Cerrahpasa Faculty of Medicine.
+
+A classification task forms the backbone of a computer aided detection system. In this paper, we propose a new classification approach for pulmonary nodules using hybrid features to be used in such a CAD system. The objective of the proposed study is to analyze the effect of the hybrid features on classification of pulmonary nodules. The proposed classification approach has several novel potential roles.
+
+To be used as an effective filtering method to reduce the number of false positives in a CAD system.
+
+To increase the diagnostic accuracy of the detection system.
+
+The rest of this paper is organized as follows. The proposed classification approach for a CAD system and methods used in the algorithm are described in Section 2. This section includes the database information, feature extraction, feature selection, and classifier algorithms. Overall performance of the proposed system as well as comparisons with six other previously presented CAD systems is presented in Section 3. Conclusions are given in Section 4.
