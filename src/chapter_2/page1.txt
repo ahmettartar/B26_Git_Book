@@ -1,0 +1,4 @@
+
+Abstract
+Early detection of pulmonary nodules is extremely important for the diagnosis and treatment of lung cancer. In this study, a new classification approach for pulmonary nodules from CT imagery is presented by using hybrid features. Four different methods are introduced for the proposed system. The overall detection performance is evaluated using various classifiers. The results are compared to similar techniques in the literature by using standard measures. The proposed approach with the hybrid features results in 90.7% classification accuracy (89.6% sensitivity and 87.5% specificity).
+
