@@ -1,0 +1,8 @@
+2.1. Pulmonary Nodule Database and Imaging Protocol
+In the study, dataset containing 95 pulmonary nodules and 75 nonnodules patterns obtained from two-dimensional (2D) CT images from 63 patients
+was utilized. The 2D pulmonary nodule patterns are manually marked on CT image by radiologists. Then, the nodule pattern is extracted from the 
+CT image as illustrated in Figure 1. Other patterns in the lung parenchyma similar to nodules but not marked as “nodule” by the radiologists are 
+selected as the member patterns of nonnodule class. Images are collected from 39 male and 24 female patients whose ages are ranging from 25 to
+78 years [mean = 55.4 ± 12.3 years]. The number of pulmonary nodules detected in the right and left lung parenchyma, as illustrated in Figure 2,
+is a total of 67 (20 in the upper part, 20 on the bottom part, and 27 pleural cases) and a total of 28 (12 in the upper part, 8 on the bottom part,
+8 pleural case), respectively.
