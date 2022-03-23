@@ -6,3 +6,5 @@ selected as the member patterns of nonnodule class. Images are collected from 39
 78 years [mean = 55.4 ± 12.3 years]. The number of pulmonary nodules detected in the right and left lung parenchyma, as illustrated in Figure 2,
 is a total of 67 (20 in the upper part, 20 on the bottom part, and 27 pleural cases) and a total of 28 (12 in the upper part, 8 on the bottom part,
 8 pleural case), respectively.
+
+The average nodule diameter is 6.42 ± 3.00 mm. The diameter distribution of the nodules used in the database is shown in Figure 3. Also nodule and nonnodule pattern samples used in dataset are given in Figure 4. The age distribution of the patients is illustrated in Figure 5.
